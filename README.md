@@ -20,10 +20,12 @@ This project is a C++ program that automatically sorts files in a directory base
 
 ```
 FileSorter/
-├── fileSorter.cpp # Main source code
+├── src/
+│   └── fileSorter.cpp # Main source code
 ├── LICENSE # MIT License
 ├── README.md # Project documentation
-└── .gitignore # Git ignore file
+└── .gitignore 
+
 ```
 ### Requirements
 - Minimum C++17 compatible compiler (for `<filesystem>` support)
