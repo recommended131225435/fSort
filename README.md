@@ -18,13 +18,13 @@ fSort is a small project that automatically sorts files in a directory based on 
 
 ### Build Instructions
 Requirements
-CMake 3.12+
+CMake 3.12+,
 Any modern C++ compiler with C++17 support (GCC, Clang, MSVC)
 
 ### Build (Linux / macOS / Windows)
 From the project root directory:
 ```
-mkdir build
+mkdir -p build
 cd build
 cmake ..
 cmake --build .
@@ -32,11 +32,12 @@ cmake --build .
 ### Run
 **On Linux / macOS:**
 ```bash
-./FileSorter
+./fSort
+
 ```
 **On Windows:**
 ```bash
-.\FileSorter.exe
+.\fSort.exe
 ```
 ### License
 This project is licensed under the MIT License.
