@@ -14,10 +14,8 @@ private:
 
 public:
     DirectoryManager(const std::string& path);
-
     fs::path getDirectoryPath() const;
     bool exists() const;
-
     void ensureFolder(const std::string& folderName) const;
     void sortFilesByType();
 };

@@ -13,10 +13,8 @@ private:
 
 public:
     File(const fs::path& path);
-
     const std::string& getExtension() const;
     const fs::path& getPath() const;
-
     static fs::path safeDestination(const fs::path& destFolder, const fs::path& filename);
     void moveToFolder(const fs::path& folder);
 };

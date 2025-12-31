@@ -2,6 +2,7 @@
 #define FILEWATCHER_HPP
 
 #include "FileSorter.hpp"
+#include <string>
 
 class FileWatcher {
 private:

@@ -2,6 +2,7 @@
 #define FILESORTER_HPP
 
 #include "DirectoryManager.hpp"
+#include <string>
 
 class FileSorter {
 private:
