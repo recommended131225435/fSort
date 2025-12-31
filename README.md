@@ -1,7 +1,7 @@
 # fSort
 
 ### About
-fSort is a small project that automatically sorts files in a directory based on their file types using OOP principles. It organizes files based on images, documents, archives, videos, and audio into their designated folders, keeping directories clean and structured.
+fSort is a small project that automatically sorts files in a directory based on their file types. It organizes files based on images, documents, archives, videos, and audio into their designated folders, keeping directories clean and structured.
 
 ### Features
 - It classifies files by their type:
